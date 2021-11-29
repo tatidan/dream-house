@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamHouse</title>
+    <link href="https://canvasjs.com/assets/css/jquery-ui.1.11.2.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" class="logo logo-header">
+          <img class="logo-img" src="./images/logo.svg" alt="logo">
+        </a>
+      </header>
+
+      <main>
+        <div class="anchor"></div>
+
+        <section class="section hero">
+            <div class="hero-card">
+              <h1 class="hero-title">Let's find <br/><span>your Dream..</span></h1>
+              <p class="hero-description">Building award winning properties across London UK and the All world</p>
+            </div>
+            <div class="hero-imgWrapper">
+              <picture class="picture">
+                <source
+                  srcset="./images/hero-desktop.webp"
+                  media="(min-width: 1280px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/hero-mobile.jpg"
+                  media="(min-width: 220px)"
+                />
+                <img
+                  class="hero-img"
+                  src="./images/hero-desktop.webp"
+                  alt="building"
+                />
+              </picture>
+            </div>
+        </section>
+
+
+        <section class="section featured-apt">
+          <h2 class="section-title featured-apt-title">Featured apartment</h2>
+          <p class="featured-apt-subtitle">The most frequently searched and the most popular apartment of the application will be in the list</p>
+          <ul class="apt-card-list cards">
+            <li class="apt-card-item card">
+              <div class="apt-card-wrapper">
+                <div class="apt-card-imgWrapper">
+                  <img class="apt-img--building" src="./images/featured-1.png" alt="building">
+                  <img class="apt-img--owner" src="./images/user-avatar.png" alt="owner">
+                  <span class="apt-distance-from-me">1,2 km away</span>
+                  <span class="apt-status">For rent</span>
+                  <a class="apt-location" href="#">
+                    <img class="apt-location--icon" src="./images/location.svg" alt="">
+                    <span class="apt-location--name">Knightsbridge</span>
+                  </a>
+                  <p class="apt-price"></p>
+                </div>
+                <div class="card-textContent">
+                  <h4 class="apt-title">Apartment London</h4>
+                  <p class="apt-description">Beautiful Huge 1 Family House in Heart of Westbury Newly Renovated With New Furniture</p>
+                  <div class="apt-details">
+                    <ul class="apt-stats-list">
+                      <li class="apt-stats-list-item"><span>2</span> bedrooms</li>
+                      <li class="apt-stats-list-item"><span>2</span> bathrooms</li>
+                      <li class="apt-stats-list-item"><span>1776</span> square feet</li>
+                    </ul>
+                    <ul class="apt-stats-links-list">
+                      <li class="apt-stats-link"><a href="#"><img src="./images/fullscreen.svg" alt=""></a></li>
+                      <li class="apt-stats-link"><a href="#"><img src="./images/favourite.svg" alt=""></a></li>
+                      <li class="apt-stats-link"><a href="#"><img src="./images/plus.svg" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="apt-card-item card">
+              <div class="apt-card-wrapper">
+                <div class="apt-card-imgWrapper">
+                  <img class="apt-img--building" src="./images/featured-2.png" alt="building">
+                  <img class="apt-img--owner" src="./images/user-avatar.png" alt="owner">
+                  <span class="apt-distance-from-me">20 km away</span>
+                  <span class="apt-status">For rent</span>
+                  <a class="apt-location" href="#">
+                    <img class="apt-location--icon" src="./images/location.svg" alt="">
+                    <span class="apt-location--name">Belmont Gardens, Chicago</span>
+                  </a>
+                  <p class="apt-price"></p>
+                </div>
+                <div class="card-textContent">
+                  <h4 class="apt-title">Studio Apartment</h4>
+                  <p class="apt-description">Beautiful Huge 1 Family House in Heart of Westbury Newly Renovated With New Furniture</p>
+                  <div class="apt-details">
+                    <ul class="apt-stats-list">
+                      <li class="apt-stats-list-item"><span>2</span> bedrooms</li>
+                      <li class="apt-stats-list-item"><span>2</span> bathrooms</li>
+                      <li class="apt-stats-list-item"><span>1776</span> square feet</li>
+                    </ul>
+                    <ul class="apt-stats-links-list">
+                      <li class="apt-stats-link"><a href="#"><img src="./images/fullscreen.svg" alt=""></a></li>
+                      <li class="apt-stats-link"><a href="#"><img src="./images/favourite.svg" alt=""></a></li>
+                      <li class="apt-stats-link"><a href="#"><img src="./images/plus.svg" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="apt-card-item card">
+              <div class="apt-card-wrapper">
+                <div class="apt-card-imgWrapper">
+                  <img class="apt-img--building" src="./images/featured-3.png" alt="building">
+                  <img class="apt-img--owner" src="./images/user-avatar.png" alt="owner">
+                  <span class="apt-distance-from-me">5,6 km away</span>
+                  <span class="apt-status">For rent</span>
+                  <a class="apt-location" href="#">
+                    <img class="apt-location--icon" src="./images/location.svg" alt="">
+                    <span class="apt-location--name">Timber Yard, Birmingham City Centre, B5</span>
+                  </a>
+                  <p class="apt-price"></p>
+                </div>
+                <div class="card-textContent">
+                  <h4 class="apt-title">Galliard Homes Apartment</h4>
+                  <p class="apt-description">this fabulous two bedroom duplex apartment will be close to some of the best local haunts and venues the city has to offer</p>
+                  <div class="apt-details">
+                    <ul class="apt-stats-list">
+                      <li class="apt-stats-list-item"><span>2</span> bedrooms</li>
+                      <li class="apt-stats-list-item"><span>2</span> bathrooms</li>
+                      <li class="apt-stats-list-item"><span>1776</span> square feet</li>
+                    </ul>
+                    <ul class="apt-stats-links-list">
+                      <li class="apt-stats-link"><a href="#"><img src="./images/fullscreen.svg" alt=""></a></li>
+                      <li class="apt-stats-link"><a href="#"><img src="./images/favourite.svg" alt=""></a></li>
+                      <li class="apt-stats-link"><a href="#"><img src="./images/plus.svg" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section apartment-rates">
+          <h2 class="section-title apartment-rates-title">Apartment rates</h2>
+          <div class="chart-navigation-buttons" id="chart-navigation-buttons">
+              <button class="chart-navigation-btn unnamed-character-style-1 isActive" id="chart-btn" type="button">Graph</button>
+              <button class="chart-navigation-btn unnamed-character-style-1" id="pie-chart-btn" type="button">Pie-Chart</button>
+          </div>
+          <div id="chart" class="apartment-rates-chart">
+            <div id="chartContainer1" class="apartment-rates-chartContainer"></div>
+          </div>
+          <div id="pie-chart" class="apartment-rates-chart chartNotActive">
+            <div id="chartContainer2" class="apartment-rates-chartContainer"></div>
+          </div>
+          <div class="chart-action-buttons">
+            <button class="chart-action-btn" type="button" id="randomize-btn">Randomize data locally</button>
+            <button class="chart-action-btn" type="button" id="getServerData-btn">Get data from server</button>
+            <button class="chart-action-btn" type="button">Get data from local Node.js</button>
+          </div>
+        </section>
+
+        <div id="back-top">
+          <a href="#">UP</a>
+        </div>
+      </main>
+    </div>
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                  <div class="footer-left">
+                    <div class="logo-footer-wrapper">
+                      <a href="#" class="logo logo-footer">
+                        <img class="logo-img" src="./images/logo.svg" alt="logo">
+                      </a>
+                      <p class="logo-footer-subhead">The most beautiful exclusive properties and luxury apartments</p>
+                    </div> 
+                    <ul class="social-list">
+                          <li class="social-item">
+                              <a href="#" class="social-link social-link--facebook">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="12" cy="12" r="12" fill="#2E2EE5"/>
+                                      <path d="M11 23.3H11.9H12.9H14.7H14.8H14.7V14.9H17.5L18 11.4H14.8V9.1C14.8 8.1 15.3 7.2 16.8 7.2H18.3V4.2C18.3 4.2 16.9 4 15.6 4C12.8 4 11 5.7 11 8.7V11.4H8V14.9H11V23.3Z" fill="white"/>
+                                  </svg>
+                              </a>
+                          </li>
+                          <li class="social-item">
+                              <a href="#" class="social-link social-link--twitter">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="24" height="24" rx="12" fill="#2E2EE5"/>
+                                      <path d="M17.7525 9.49517C17.7525 9.63043 17.7525 9.7657 17.7525 9.88164C17.7525 13.8816 14.8196 18.5 9.47358 18.5C7.82151 18.5 6.29938 17.9976 5 17.1473C5.22275 17.1667 5.46406 17.186 5.68682 17.186C7.04188 17.186 8.30414 16.7029 9.30652 15.8913C8.0257 15.872 6.94907 14.9831 6.59638 13.785C6.78201 13.8237 6.94907 13.843 7.15326 13.843C7.41314 13.843 7.67301 13.8043 7.91433 13.7271C6.57782 13.4565 5.57544 12.2391 5.57544 10.7705C5.57544 10.7512 5.57544 10.7512 5.57544 10.7319C5.96525 10.9638 6.41076 11.099 6.89338 11.1184C6.11376 10.5773 5.594 9.64976 5.594 8.58696C5.594 8.02657 5.7425 7.50483 5.98382 7.06039C7.41314 8.89614 9.5664 10.0942 11.9795 10.2295C11.9238 10.0169 11.9053 9.7657 11.9053 9.53382C11.9053 7.85266 13.2047 6.5 14.8196 6.5C15.6549 6.5 16.416 6.86715 16.9357 7.44686C17.604 7.31159 18.2166 7.06039 18.792 6.71256C18.5693 7.42754 18.1052 8.00725 17.5112 8.39372C18.1052 8.31643 18.6621 8.16184 19.1818 7.91063C18.8106 8.52899 18.3279 9.07005 17.7525 9.49517Z" fill="white"/>
+                                  </svg>
+                              </a>
+                          </li>
+                          <li class="social-item">
+                              <a href="#" class="social-link social-link--instagram">
+                                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="48" height="48" rx="24" fill="#2E2EE5"/>
+                                      <path d="M19.183 24.2733C19.183 21.4617 21.4617 19.1818 24.2733 19.1818C27.085 19.1818 29.3649 21.4617 29.3649 24.2733C29.3649 27.085 27.085 29.3649 24.2733 29.3649C21.4617 29.3649 19.183 27.085 19.183 24.2733ZM16.4307 24.2733C16.4307 28.6049 19.9418 32.116 24.2733 32.116C28.6049 32.116 32.116 28.6049 32.116 24.2733C32.116 19.9418 28.6049 16.4307 24.2733 16.4307C19.9418 16.4307 16.4307 19.9418 16.4307 24.2733ZM30.5937 16.1197C30.5935 16.4822 30.7009 16.8366 30.9022 17.1381C31.1034 17.4396 31.3896 17.6746 31.7244 17.8134C32.0593 17.9523 32.4278 17.9887 32.7833 17.9182C33.1389 17.8476 33.4655 17.6732 33.722 17.4169C33.9784 17.1607 34.1531 16.8342 34.2239 16.4787C34.2948 16.1232 34.2586 15.7547 34.1201 15.4197C33.9815 15.0848 33.7467 14.7984 33.4454 14.5969C33.144 14.3954 32.7897 14.2878 32.4272 14.2876H32.4265C31.9406 14.2879 31.4747 14.4809 31.131 14.8244C30.7874 15.1679 30.5941 15.6338 30.5937 16.1197ZM18.1029 36.7055C16.6138 36.6377 15.8045 36.3896 15.2666 36.1801C14.5535 35.9025 14.0447 35.5718 13.5098 35.0376C12.9749 34.5034 12.6437 33.9951 12.3673 33.282C12.1577 32.7444 11.9096 31.9348 11.8419 30.4457C11.7679 28.8358 11.7531 28.3522 11.7531 24.2735C11.7531 20.1947 11.7691 19.7125 11.8419 18.1012C11.9098 16.6121 12.1596 15.8041 12.3673 15.2649C12.645 14.5518 12.9756 14.043 13.5098 13.5081C14.044 12.9731 14.5523 12.642 15.2666 12.3656C15.8042 12.156 16.6138 11.9079 18.1029 11.8402C19.7128 11.7662 20.1965 11.7514 24.2733 11.7514C28.3502 11.7514 28.8343 11.7674 30.4456 11.8402C31.9347 11.908 32.7427 12.1579 33.2819 12.3656C33.995 12.642 34.5038 12.9739 35.0387 13.5081C35.5737 14.0423 35.9036 14.5518 36.1812 15.2649C36.3908 15.8025 36.6389 16.6121 36.7066 18.1012C36.7806 19.7125 36.7954 20.1947 36.7954 24.2735C36.7954 28.3522 36.7806 28.8344 36.7066 30.4457C36.6388 31.9348 36.3895 32.7442 36.1812 33.282C35.9036 33.9951 35.5729 34.5039 35.0387 35.0376C34.5045 35.5713 33.995 35.9025 33.2819 36.1801C32.7443 36.3897 31.9347 36.6378 30.4456 36.7055C28.8357 36.7795 28.3521 36.7943 24.2733 36.7943C20.1946 36.7943 19.7124 36.7795 18.1029 36.7055ZM17.9764 9.0925C16.3505 9.16654 15.2395 9.42435 14.2692 9.80191C13.2643 10.1918 12.4137 10.7149 11.5636 11.5636C10.7135 12.4123 10.1918 13.2643 9.80191 14.2692C9.42435 15.2401 9.16654 16.3505 9.0925 17.9764C9.01723 19.605 9 20.1256 9 24.2733C9 28.4211 9.01723 28.9417 9.0925 30.5702C9.16654 32.1963 9.42435 33.3066 9.80191 34.2775C10.1918 35.2817 10.7137 36.1347 11.5636 36.9831C12.4135 37.8314 13.2643 38.3538 14.2692 38.7448C15.2413 39.1223 16.3505 39.3801 17.9764 39.4542C19.6058 39.5282 20.1256 39.5467 24.2733 39.5467C28.4211 39.5467 28.9417 39.5294 30.5702 39.4542C32.1963 39.3801 33.3066 39.1223 34.2775 38.7448C35.2818 38.3538 36.133 37.8318 36.9831 36.9831C37.8331 36.1344 38.3538 35.2817 38.7448 34.2775C39.1223 33.3066 39.3814 32.1962 39.4542 30.5702C39.5282 28.9405 39.5455 28.4211 39.5455 24.2733C39.5455 20.1256 39.5282 19.605 39.4542 17.9764C39.3801 16.3504 39.1223 15.2395 38.7448 14.2692C38.3538 13.2649 37.8318 12.4137 36.9831 11.5636C36.1344 10.7135 35.2818 10.1918 34.2787 9.80191C33.3066 9.42435 32.1962 9.16532 30.5715 9.0925C28.943 9.01845 28.4223 9 24.2746 9C20.1268 9 19.6058 9.01723 17.9764 9.0925Z" fill="white"/>
+                                  </svg>
+                              </a>
+                          </li>
+                          <li class="social-item">
+                              <a href="#" class="social-link social-link--youtube">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="24" height="24" rx="12" fill="#2E2EE5"/>
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M17.869 7.07125C18.5115 7.24423 19.0181 7.75082 19.191 8.39332C19.5123 9.56712 19.4999 12.0136 19.4999 12.0136C19.4999 12.0136 19.4999 14.4477 19.191 15.6215C19.0181 16.264 18.5115 16.7706 17.869 16.9435C16.6952 17.2524 12 17.2524 12 17.2524C12 17.2524 7.31712 17.2524 6.13097 16.9312C5.48846 16.7582 4.98188 16.2516 4.80889 15.6091C4.5 14.4477 4.5 12.0012 4.5 12.0012C4.5 12.0012 4.5 9.56712 4.80889 8.39332C4.98188 7.75082 5.50082 7.23188 6.13097 7.05889C7.30477 6.75 12 6.75 12 6.75C12 6.75 16.6952 6.75 17.869 7.07125ZM14.4093 12.0007L10.5049 14.2495V9.75199L14.4093 12.0007Z" fill="white"/>
+                                  </svg>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="footer-right">
+                      <div>
+                          <div class="overline footer-title">Useful links</div>
+                          <ul class="footer-menu">
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">About</a>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">Partners</a>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">Contact</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div>
+                          <div class="overline footer-title">Help?</div>
+                          <ul class="footer-menu">
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">FAQ</a>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">Term and condition</a>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">Policy</a>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">Privacy</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div>
+                          <div class="overline footer-title">Address</div>
+                          <ul class="footer-menu">
+                              <li class="footer-menu-item">
+                                  <p>113-115 Old Brompton Road</p>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <p>SW7 3LE, London, United Kingdom</p>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="#">Website: morden.com</a>
+                              </li>
+                              <li class="footer-menu-item">
+                                  <a class="footer-menu-link" href="tel:123-456-7890">Mobile</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                  <div class="copyright-wrapper">
+                    <div class="caption">Copyright 2021, <a class="footer-nav-link" href="#">morden.com</a></div>
+                    <div class="caption">
+                      <a class="footer-nav-link" href="#">Terms and condition </a><span>|</span>                
+                      <a class="footer-nav-link" href="#">Privacy policy</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+      </footer>
+
+      <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+      <script src="https://canvasjs.com/assets/script/jquery-ui.1.11.2.min.js"></script>
+      <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+      <script src="./index.js"></script>
+  </body>
+</html>
