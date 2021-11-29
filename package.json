@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "homepage": "https://tatidan.github.io/dream-house",
+
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /dream-house/"
+    "build": "parcel build src/*.html --public-url /dream-house/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0"
   }
 }
